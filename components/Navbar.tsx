@@ -55,11 +55,11 @@ export function Navbar() {
         scrolled ? "glass-effect py-3.5 shadow-xl shadow-black/20" : "bg-transparent py-6"
       }`}
     >
-      <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12 flex items-center justify-between">
         {/* Logo */}
         <a
           href="#"
-          className="text-xl font-bold tracking-tight text-[var(--text)] group"
+          className="text-lg sm:text-xl font-bold tracking-tight text-[var(--text)] group"
         >
           My <span className="text-[var(--primary)]">Portofolio</span>
         </a>
@@ -103,21 +103,21 @@ export function Navbar() {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="flex items-center gap-2 lg:hidden">
+        <div className="flex items-center gap-1.5 lg:hidden">
           <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             aria-label="Toggle Theme"
-            className="w-9 h-9 rounded-xl border border-[var(--border)] flex items-center justify-center text-[var(--muted)] bg-[var(--surface)] shadow-md"
+            className="w-8 h-8 rounded-xl border border-[var(--border)] flex items-center justify-center text-[var(--muted)] bg-[var(--surface)] shadow-md"
           >
-            {theme === "dark" ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-slate-700" />}
+            {theme === "dark" ? <Sun className="w-3.5 h-3.5 text-amber-400" /> : <Moon className="w-3.5 h-3.5 text-slate-700" />}
           </button>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle Menu"
-            className="w-9 h-9 rounded-xl border border-[var(--border)] flex items-center justify-center text-[var(--text)] bg-[var(--surface)] shadow-md"
+            className="w-8 h-8 rounded-xl border border-[var(--border)] flex items-center justify-center text-[var(--text)] bg-[var(--surface)] shadow-md"
           >
-            {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {isOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
           </button>
         </div>
       </div>
