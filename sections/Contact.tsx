@@ -35,7 +35,7 @@ export function Contact() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* Contact Info & Details */}
         <div className="space-y-6">
-          <div className="p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-6">
+          <div className="p-5 sm:p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-6">
             <h3 className="text-xl font-bold text-[var(--text)]">Contact Information</h3>
             <p className="text-sm text-[var(--muted)] leading-relaxed">
               Feel free to reach out through the contact form or directly via email, phone, or professional networks.
@@ -95,7 +95,7 @@ export function Contact() {
         </div>
 
         {/* Contact Form */}
-        <div className="p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl">
+        <div className="p-5 sm:p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl">
           {submitted ? (
             <div className="h-full flex flex-col items-center justify-center text-center py-12 space-y-4">
               <div className="w-16 h-16 rounded-full bg-emerald-500/10 text-emerald-500 flex items-center justify-center">

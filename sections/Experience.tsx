@@ -28,7 +28,7 @@ export function Experience() {
             <div className="absolute -left-[9px] top-2 w-4 h-4 rounded-full border-2 border-[var(--primary)] bg-[var(--surface)] shadow-lg glow-primary" />
 
             {/* Card */}
-            <div className="p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-4 hover:border-[var(--primary)]/50 transition-all group">
+            <div className="p-5 sm:p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-4 hover:border-[var(--primary)]/50 transition-all group">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                 <div>
                   <span className="inline-block px-3 py-1 rounded-full bg-[var(--primary)]/10 text-[var(--primary)] text-xs font-bold uppercase tracking-wider mb-2">

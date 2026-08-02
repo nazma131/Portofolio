@@ -41,7 +41,7 @@ export function Certificates() {
               </div>
             </div>
 
-            <div className="p-6 flex flex-col flex-1 justify-between space-y-4">
+            <div className="p-5 sm:p-6 flex flex-col flex-1 justify-between space-y-4">
               <div>
                 <span className="text-xs font-medium text-[var(--accent)]">{cert.issuer} • {cert.date}</span>
                 <h3 className="text-base font-bold text-[var(--text)] mt-1.5 group-hover:text-[var(--accent)] transition-colors line-clamp-2">

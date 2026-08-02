@@ -37,7 +37,7 @@ export function Skills() {
         {skillCategories.map((cat) => (
           <div
             key={cat.category}
-            className="p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-6 hover:border-[var(--primary)]/50 transition-all group"
+            className="p-5 sm:p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-6 hover:border-[var(--primary)]/50 transition-all group"
           >
             <div className="flex items-center gap-3.5 pb-4 border-b border-[var(--border)]">
               <div className="w-10 h-10 rounded-xl bg-[var(--primary)]/10 flex items-center justify-center">

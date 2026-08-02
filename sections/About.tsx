@@ -29,7 +29,7 @@ export function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Left Column: Introduction & Career Goals */}
         <div className="space-y-6">
-          <div className="p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-4 hover:border-[var(--primary)]/50 transition-all group">
+          <div className="p-5 sm:p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-4 hover:border-[var(--primary)]/50 transition-all group">
             <div className="flex items-center gap-3.5 text-[var(--primary)] font-semibold">
               <div className="w-10 h-10 rounded-xl bg-[var(--primary)]/10 flex items-center justify-center">
                 <Compass className="w-5 h-5 text-[var(--primary)]" />
@@ -41,7 +41,7 @@ export function About() {
             </p>
           </div>
 
-          <div className="p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-4 hover:border-[var(--primary)]/50 transition-all group">
+          <div className="p-5 sm:p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-4 hover:border-[var(--primary)]/50 transition-all group">
             <div className="flex items-center gap-3.5 text-[var(--primary)] font-semibold">
               <div className="w-10 h-10 rounded-xl bg-[var(--primary)]/10 flex items-center justify-center">
                 <Target className="w-5 h-5 text-[var(--primary)]" />
@@ -56,7 +56,7 @@ export function About() {
 
         {/* Right Column: Soft Skills & Tech Summary */}
         <div className="space-y-6">
-          <div className="p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-4 hover:border-[var(--accent)]/50 transition-all group">
+          <div className="p-5 sm:p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-4 hover:border-[var(--accent)]/50 transition-all group">
             <div className="flex items-center gap-3.5 text-[var(--accent)] font-semibold">
               <div className="w-10 h-10 rounded-xl bg-[var(--accent)]/10 flex items-center justify-center">
                 <Users className="w-5 h-5 text-[var(--accent)]" />
@@ -73,7 +73,7 @@ export function About() {
             </div>
           </div>
 
-          <div className="p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-4 hover:border-[var(--accent)]/50 transition-all group">
+          <div className="p-5 sm:p-8 rounded-3xl bg-[var(--surface)] border border-[var(--border)] shadow-xl space-y-4 hover:border-[var(--accent)]/50 transition-all group">
             <div className="flex items-center gap-3.5 text-[var(--accent)] font-semibold">
               <div className="w-10 h-10 rounded-xl bg-[var(--accent)]/10 flex items-center justify-center">
                 <Layers className="w-5 h-5 text-[var(--accent)]" />

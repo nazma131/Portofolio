@@ -30,7 +30,7 @@ export function Education() {
             <div className="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full border-2 border-[var(--primary)] bg-[var(--surface)] shadow-xs" />
 
             {/* Card */}
-            <div className="p-6 rounded-2xl bg-[var(--surface)] border border-[var(--border)] shadow-xs space-y-4">
+            <div className="p-5 sm:p-6 rounded-2xl bg-[var(--surface)] border border-[var(--border)] shadow-xs space-y-4">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                 <div>
                   <div className="flex items-center gap-2 mb-1">
