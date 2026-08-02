@@ -15,18 +15,4 @@ export const experiences: ExperienceItem[] = [
     ],
     techStack: ["IT Support", "System Operations", "Documentation"],
   },
-  {
-    id: "exp-2",
-    role: "Junior Web Developer (Freelance)",
-    company: "Self-Employed",
-    location: "Global / Remote",
-    period: "Jan 2025 - Present",
-    type: "Freelance",
-    description: [
-      "Designed and delivered custom landing pages and school project websites.",
-      "Integrated modern frontend tools and optimized websites for maximum performance.",
-      "Maintained ongoing client communication and technical support."
-    ],
-    techStack: ["Next.js", "Tailwind CSS", "JavaScript", "HTML/CSS"],
-  },
 ];
