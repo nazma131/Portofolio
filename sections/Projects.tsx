@@ -20,7 +20,7 @@ export function Projects() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto gap-8">
         {projects.map((project, idx) => (
           <div
             key={project.id}
