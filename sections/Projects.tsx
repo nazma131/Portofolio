@@ -10,7 +10,7 @@ export function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   return (
-    <section id="projects" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section id="projects" className="py-24 px-6 sm:px-8 lg:px-12 max-w-[1400px] mx-auto">
       <div className="flex flex-col items-center text-center mb-16">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--text)] mb-3">
           Featured Projects

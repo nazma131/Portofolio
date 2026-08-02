@@ -11,7 +11,7 @@ export function Hero() {
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[var(--primary)]/15 rounded-full blur-[120px] pointer-events-none -z-10" />
       <div className="absolute bottom-10 right-10 w-[400px] h-[400px] bg-[var(--accent)]/10 rounded-full blur-[100px] pointer-events-none -z-10" />
 
-      <div className="max-w-6xl mx-auto text-center flex flex-col items-center">
+      <div className="max-w-[1400px] mx-auto text-center flex flex-col items-center px-6 sm:px-8 lg:px-12">
         {/* Profile Avatar with glowing border */}
         <div className="relative w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden p-1 bg-gradient-to-tr from-[var(--primary)] to-[var(--accent)] shadow-xl mb-8 group">
           <div className="w-full h-full rounded-full overflow-hidden bg-[var(--surface)]">

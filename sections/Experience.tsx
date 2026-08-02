@@ -5,7 +5,7 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 export function Experience() {
   return (
-    <section id="experience" className="py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section id="experience" className="py-28 px-6 sm:px-8 lg:px-12 max-w-[1400px] mx-auto">
       <div className="flex flex-col items-center text-center mb-16">
         <span className="px-3.5 py-1.5 rounded-full bg-[var(--surface)] border border-[var(--border)] text-xs font-semibold text-[var(--accent)] tracking-widest uppercase mb-3 shadow-md">
           Professional Career

@@ -55,7 +55,7 @@ export function Navbar() {
         scrolled ? "glass-effect py-3.5 shadow-xl shadow-black/20" : "bg-transparent py-6"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between">
         {/* Logo */}
         <a
           href="#"
