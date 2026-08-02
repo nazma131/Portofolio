@@ -77,14 +77,14 @@ export function Contact() {
 
             <div className="pt-4 border-t border-[var(--border)]">
               <p className="text-xs font-medium text-[var(--text)] mb-3">Connect on Social Media</p>
-              <div className="flex items-center gap-3">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
                 {socials.map((social) => (
                   <a
                     key={social.platform}
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-3.5 py-2 rounded-xl bg-[var(--border)]/30 hover:bg-[var(--primary)]/10 hover:text-[var(--primary)] text-xs font-medium text-[var(--muted)] transition-colors"
+                    className="px-3 py-2 rounded-xl bg-[var(--border)]/30 hover:bg-[var(--primary)]/10 hover:text-[var(--primary)] text-xs font-medium text-[var(--muted)] transition-colors text-center flex items-center justify-center"
                   >
                     {social.platform}
                   </a>
