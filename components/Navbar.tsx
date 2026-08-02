@@ -65,14 +65,14 @@ export function Navbar() {
         </a>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-1 bg-[var(--surface)]/80 border border-[var(--border)] px-3.5 py-1.5 rounded-full shadow-lg backdrop-blur-md">
+        <nav className="hidden lg:flex items-center gap-0.5 bg-[var(--surface)]/80 border border-[var(--border)] px-3 py-1 rounded-full shadow-lg backdrop-blur-md">
           {navLinks.map((link) => {
             const isActive = activeSection === link.href.substring(1);
             return (
               <a
                 key={link.name}
                 href={link.href}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide transition-all ${
+                className={`px-2.5 py-1 rounded-full text-xs font-semibold tracking-wide transition-all ${
                   isActive
                     ? "bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] text-white shadow-md glow-primary"
                     : "text-[var(--muted)] hover:text-[var(--text)] hover:bg-[var(--border)]/40"
